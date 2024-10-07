@@ -1,17 +1,12 @@
-### WTG_INDY
-Where to go indy Best links to help you find resources and events in indianapolis
+# Indiana Events and Resources
 
+This project is a curated list of events and resources related to various activities in Indiana. It aims to provide a comprehensive guide for residents and visitors alike.
 
-# Indiana Event Calendar App
+## Table of Contents
 
-## Description
+* [Events](./events.md)
+* [Resources](./resources.md)
 
-This app provides a comprehensive calendar of events happening in Indiana, curated from various sources. Users can easily find events by date, location, or category.
+## Contributing
 
-## Features
-
-* **Browse events by date:** Quickly see what's happening today, this weekend, or in the coming months.
-* **Filter events by location:**  Find events in your city or a specific region of Indiana.
-* **Search for events by keyword:** Looking for concerts, festivals, or art exhibits?  Our search functionality makes it easy.
-* **Save your favorite events:**  Keep track of the events you're most interested in.
-
+To contribute, click on the README.md file and then the pencil icon. Make your changes and click the "Propose file change" button to submit a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). Make sure to follow the contributions guidelines.
