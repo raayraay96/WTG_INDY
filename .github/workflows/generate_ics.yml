@@ -1,0 +1,36 @@
+name: Generate ICS Calendar
+
+on:
+  push:
+    paths:
+      - 'events/**.md'  # Adjust the path to match where your event files are
+      - 'generate_ics.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install markdown beautifulsoup4 ics
+
+      - name: Run ICS Generator
+        run: |
+          python generate_ics.py
+
+      - name: Commit and Push .ics File
+        run: |
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+          git add calendar/events_calendar.ics docs/events.json
+          git commit -m 'Update events_calendar.ics [skip ci]' || echo 'No changes to commit'
+          git push
