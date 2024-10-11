@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Indianapolis Children's Museum Visit",
+      "date": "2024-11-15",
+      "time": "10:00 AM",
+      "location": "Indianapolis Children's Museum",
+      "description": "A fun day exploring the museum with interactive exhibits.",
+      "link": "https://childrensmuseum.org/events",
+      "category": "Museum"
+    },
+    {
+      "title": "Purdue University Convocation",
+      "date": "2024-12-01",
+      "time": "9:00 AM",
+      "location": "Purdue University",
+      "description": "Join us for the annual convocation ceremony.",
+      "link": "https://purdue.edu/events/convocation",
+      "category": "College"
+    }
+    // Add more events here
+  ]
+  
